@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 60px;
+    /* background-color: beige; */
+    padding:0 30px;
+}
+#background{
+    width: 100%;
+    height:100%;
+    background-color: #b6eeee;
+}
+#background .nav i{
+    cursor:pointer;
+}
+.headings{
+    margin-top: 100px;
+text-align: center;
+}
+.headings h1{
+    font-size: 40px;
+}
+.headings p{
+    font-size: 12px;
+}
+.elements{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin-top:120px;
+    padding:0 120px;
+    position: relative;
+}
+.elements .element{
+    width: 17%;
+    height: 350px;
+    border-radius: 10px;
+    padding:5px;
+    background-color: rgb(248 248 248);
+    /* background-color: rgb(222, 246, 222); */
+}
+.element .pic{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;;
+    background-position: center;
+    background-size: cover;
+}
+.elements .element:nth-child(1) .pic{
+    background-image: url(https://images.unsplash.com/photo-1600347991614-8deacfbe8a06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+
+}
+.elements .element:nth-child(2) .pic{
+    background-image: url(https://images.unsplash.com/photo-1615140891532-28c5c87d0153?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80);
+
+}
+.elements .element:nth-child(3) .pic{
+    background-image: url(https://images.unsplash.com/photo-1658741446147-d9e22eea8730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+
+}
+.elements .element:nth-child(4) .pic{
+    background-image: url(https://images.unsplash.com/photo-1534877269024-2bdd7c66234b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+
+}
+.element .cntnt{
+    padding:20px 10px;
+
+}
+.element .cntnt h3{
+    color:rgb(222, 29, 135);
+    padding:12px 0;
+}
+.element .cntnt span {
+font-size: 12px;
+display: flex;
+align-items: center;
+
+}
+.element .cntnt span i{
+    margin-left:10px;
+    
+}
